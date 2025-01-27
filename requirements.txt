@@ -1,0 +1,8 @@
+plotly
+matplotlib
+wordcloud
+numpy 
+scipy 
+scikit-learn
+fuzzywuzzy
+pandas 

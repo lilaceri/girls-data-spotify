@@ -16,3 +16,14 @@
 3. Download your data
 4. Replace sample data with your own
 
+### Detailed instructions for laptop set up
+
+1. Download Anaconda
+2. Set up conda environment to have python & jupyter labs
+3. Open jupyter labs
+4. Open console
+5. `conda install anaconda::git`
+6. `git clone https://github.com/lilaceri/girls-data-spotify.git`
+7. cd into the folder you've just cloned - soemthing like `cd girls-data-spotify`
+8. `python -m pip install -r requirements.txt`
+9. Open ipynb and check it runs ok - you may need to uncomment some of the !pip package installs in the first code cell
