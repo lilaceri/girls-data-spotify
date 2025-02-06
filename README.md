@@ -27,3 +27,13 @@
 7. cd into the folder you've just cloned - soemthing like `cd girls-data-spotify`
 8. `python -m pip install -r requirements.txt`
 9. Open ipynb and check it runs ok - you may need to uncomment some of the !pip package installs in the first code cell
+
+### Detailed instructions for google Colab
+1. open spotify wrapped ipynb on this browser
+2. click open in google colab button
+3. download the files called "streaming history..."
+4. create a code cell at the top of the page and paste:
+`from google.colab import files`
+`uploaded = files.upload()`
+5. this should open a diaglogue box for you to upload the files you just downloaded
+6. 
