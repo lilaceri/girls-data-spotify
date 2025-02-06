@@ -32,6 +32,6 @@
 1. open spotify wrapped ipynb on this browser
 2. click open in google colab button at the top
 3. notebook should run using the provided data on this repo - make sure to run the 3 hidden cells
-4. if you want to use your own data - try to write a function to do this and change the `dfs = get_local_filepaths()
+4. if you want to use your own data - try to write a function to do this and change the `dfs = get_local_filepaths()`
    to `dfs = your_function()`
    
