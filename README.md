@@ -1,5 +1,7 @@
 # Interactive spotify 'wrapped' workshop 
 
+This repo contains an interactive workshop designed to be delivered to secondary school age children/young adults. It provides a worksheet and sample data that students can use to simulate Spotify's Wrapped using python to analyse spotify listening history, create a variety of visualisations and a simple machine learning model.
+
 ### Instructions
 ---
 1. clone repo
