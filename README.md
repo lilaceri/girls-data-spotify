@@ -18,7 +18,7 @@ This repo contains an interactive workshop designed to be delivered to secondary
 3. Download your data
 4. Replace sample data with your own
 
-### Detailed instructions for laptop set up
+### simple instructions for laptop set up
 
 1. Download Anaconda
 2. Set up conda environment to have python & jupyter labs
@@ -29,6 +29,21 @@ This repo contains an interactive workshop designed to be delivered to secondary
 7. cd into the folder you've just cloned - soemthing like `cd girls-data-spotify`
 8. `python -m pip install -r requirements.txt`
 9. Open ipynb and check it runs ok - you may need to uncomment some of the !pip package installs in the first code cell
+
+### Detailed Instructions of laptop
+1.	Download Anaconda https://www.anaconda.com/download/success
+•	Most likely will be the windows version required 
+2.	Open the Jupyter Notebook (just search in your applications) 
+•	It will open a command window – let it do its thing
+3.	Once Jupyter has opened in your browser go to File -> New -> Terminal 
+4.	In the terminal type the following:
+•	conda install anaconda ::git
+i.	It may say some new packages need installed -> say yes 
+•	git clone https://github.com/lilaceri/girls-data-spotify.git  
+5.	Then go to View -> JupyterLab
+6.	The path to the folder should now be girls-data-spotify/ - this is essential as it is hard coded 
+•	Navigate to Documents -> girls-data-spotify 
+•	Open Spotify_wrapped_workshop.ipynb 
 
 ### Detailed instructions for google Colab
 1. open spotify wrapped ipynb on this browser
